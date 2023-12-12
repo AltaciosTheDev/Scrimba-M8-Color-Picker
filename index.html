@@ -1,0 +1,61 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div id="container">
+            
+            <div id="color-controls-container">
+                <input type="color" id="color-picker">
+                <select id="color-scheme">
+                    <option value="monochrome">Monochrome</option>
+                    <option value="monochrome-dark">Monochrome-dark</option>
+                    <option value="monochrome-light">Monochrome-light</option>
+                    <option value="analogic">Analogic</option>
+                    <option value="complement">Complement</option>
+                    <option value="analogic-complement">Analogic-complement</option>
+                    <option value="triad">Triad</option>
+                </select>
+                <button id="get-color-btn">Get color</button>
+            </div>
+            
+            <div id="color-options-container">
+                <div class="color">
+                    <div class="color-background" id="color-background1"></div>
+                    <div class="color-hex-value-container">
+                        <p class="color-hex-value" id="color-hex-value1">#Select</p>
+                    </div>
+                </div>
+                
+                <div class="color">
+                    <div class="color-background" id="color-background2"></div>
+                    <div class="color-hex-value-container">
+                        <p class="color-hex-value" id="color-hex-value2">#SeedColor</p>
+                    </div>
+                </div>
+                
+                <div class="color">
+                    <div class="color-background" id="color-background3"></div>
+                    <div class="color-hex-value-container">
+                        <p class="color-hex-value" id="color-hex-value3">#Scheme</p>
+                    </div>
+                </div>
+                
+                <div class="color">
+                    <div class="color-background" id="color-background4"></div>
+                    <div class="color-hex-value-container">
+                        <p class="color-hex-value" id="color-hex-value4">#And</p>
+                    </div>
+                </div>
+                
+                <div class="color">
+                    <div class="color-background" id="color-background5"></div>
+                    <div class="color-hex-value-container">
+                        <p class="color-hex-value" id="color-hex-value5">#PressBtn</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
